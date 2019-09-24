@@ -1,7 +1,6 @@
-# image_classifier_template
+## Credits
 
-This is the code for [this]() video on Youtube by Siraj Raval on building your an image classifier service. There are 3 components here; A web API, a model training script, and a mobile app. The code in this repository is for the starter flutter app. 
-
+Credits go to the FastAI team, Naveen Chanakya, and the Flutter team. I integrated a few different tutorials together to form a SaaS pipeline template. This is the code for [this](https://youtu.be/CzPYgRaYWUA) video on Youtube by Siraj Raval on building your an image classifier service. There are 3 components here; A web API, a model training script, and a mobile app. The code in this repository is for the starter flutter app. Let's go through the 5 step process below. Pull Requests are always welcome!
 
 ### Step 1: Find an Image Dataset
 
