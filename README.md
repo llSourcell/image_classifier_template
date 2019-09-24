@@ -27,7 +27,7 @@ Credits go to the FastAI team, Naveen Chanakya, and the Flutter team. I integrat
 
 ### Step 5: Build the Mobile App
 
-- Install Flutter [here](flutter.dev/docs/get-started/install) 
+- Install Flutter [here](https://flutter.dev/docs/get-started/install) 
 - Download this code
 - Open it in android studio as a new flutter project
 - it will ask you to 'get' all dependencies, say yes and it'll will all be installed automatically
