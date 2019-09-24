@@ -31,6 +31,7 @@ Credits go to the FastAI team, Naveen Chanakya, and the Flutter team. I integrat
 - Download this code
 - Open it in android studio as a new flutter project
 - it will ask you to 'get' all dependencies, say yes and it'll will all be installed automatically
+- Replace the default render link in 'main.dart' to the link to your deployed render app
 - Notice the 2 functions for signup and login. This is where your stripe and firebase authentication
 code will be placed
 - See [this](https://firebase.google.com/docs/flutter/setup) and [this](https://pub.dev/packages/stripe_payment)
