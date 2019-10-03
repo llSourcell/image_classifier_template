@@ -23,7 +23,7 @@ Credits go to the FastAI team, Naveen Chanakya, and the Flutter team. I integrat
 - Follow the instructions in its README to deploy it to render
 - Once deployed, check that it works. 
 - Then replace line 12 in 'server.py' of the web example with a link to your own classifier pkl file and re-deploy
-- Make any cosmetic changes to the front-end inteface that you'd like
+- Make any cosmetic changes to the front-end interface that you'd like
 
 ### Step 5: Build the Mobile App
 
