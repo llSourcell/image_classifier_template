@@ -240,25 +240,17 @@ class _MyAppState extends State<MyApp> {
           ),
         ),
       ),
-      floatingActionButton: new Stack(
+      floatingActionButton: Column(
+        mainAxisAlignment: MainAxisAlignment.end,
         children: <Widget>[
-          Align(
-              alignment: Alignment(1.0, 1.0),
-              child: new FloatingActionButton(
-                onPressed: (){
-                  image_picker(0);
-                },
-                child: new Icon(Icons.camera_alt),
-              )
+          FloatingActionButton(
+            child: Icon(Icons.camera_alt),
+            onPressed: () => image_picker(0),
           ),
-          Align(
-              alignment: Alignment(1.0, 0.8),
-              child: new FloatingActionButton(
-                  onPressed: (){
-                    image_picker(1);
-                  },
-                  child: new Icon(Icons.file_upload)
-              )
+          SizedBox(height: 15,),
+          FloatingActionButton(
+            child: Icon(Icons.file_upload),
+            onPressed: () => image_picker(1),
           ),
         ],
       ),
