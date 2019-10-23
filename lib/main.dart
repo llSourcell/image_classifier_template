@@ -240,7 +240,8 @@ class _MyAppState extends State<MyApp> {
           ),
         ),
       ),
-      floatingActionButton: new Stack(
+      floatingActionButton: new Column(
+        mainAxisAlignment: MainAxisAlignment.end,
         children: <Widget>[
           Align(
               alignment: Alignment(1.0, 1.0),
@@ -251,6 +252,7 @@ class _MyAppState extends State<MyApp> {
                 child: new Icon(Icons.camera_alt),
               )
           ),
+          SizedBox(height: MediaQuery.of(context).size.height*0.01),
           Align(
               alignment: Alignment(1.0, 0.8),
               child: new FloatingActionButton(
